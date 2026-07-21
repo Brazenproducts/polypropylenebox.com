@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Polypropylene Box | PP Boxes for Food, Industrial & Agricultural Use | PolypropylenBox.com</title>
+  <title>Polypropylene Box | PP Boxes for Food, Industrial & Agricultural Use | PolypropyleneBox.com</title>
   <meta name="description" content="Injection-molded polypropylene boxes for food, industrial, and agricultural applications — gaylord boxes, produce crates, meat bins, and corrugated PP boxes. FDA 21 CFR food-grade virgin resin. Reusable fleets. Elipacko." />
   <link rel="canonical" href="https://polypropylenebox.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Polypropylene Box | PP Boxes for Food, Industrial & Agricultural Use" />
   <meta property="og:description" content="Polypropylene boxes — gaylords, produce crates, meat bins, corrugated PP boxes. FDA 21 CFR food-grade virgin resin. Reusable fleets. Durable, recyclable. Elipacko." />
   <meta property="og:url" content="https://polypropylenebox.com/" />
-  <meta property="og:site_name" content="PolypropylenBox.com" />
+  <meta property="og:site_name" content="PolypropyleneBox.com" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org/",
@@ -213,13 +213,31 @@
       .photo-strip img { height: 140px; }
     }
 
+  
+    /* ===== MOBILE OVERFLOW FIX ===== */
+    body { overflow-x: hidden; }
+    @media (max-width: 768px) {
+      nav {
+        padding: 0 16px !important;
+        overflow: hidden;
+      }
+      .nav-logo, .nav-brand {
+        font-size: 0.95rem !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 55vw;
+      }
+      .nav-links { display: none !important; }
+    }
+
   </style>
 </head>
 <body>
 
 <!-- NAVIGATION -->
 <nav>
-  <div class="nav-logo">PolypropylenBox.com</div>
+  <div class="nav-logo">PolypropyleneBox.com</div>
   <ul class="nav-links">
     <li><a href="#overview">Overview</a></li>
     <li><a href="#specs">Specs</a></li>
@@ -527,7 +545,7 @@
 
 <!-- FOOTER -->
 <footer>
-  <div>PolypropylenBox.com — Polypropylene Box Information Resource</div>
+  <div>PolypropyleneBox.com — Polypropylene Box Information Resource</div>
   <div>Supplied by <a href="https://elipacko.com">Elipacko.com</a> | All rights reserved</div>
 </footer>
 
